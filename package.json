@@ -1,0 +1,36 @@
+{
+  "name": "tana-vision",
+  "version": "1.0.0",
+  "description": "A Node.js application that uses OpenAI's GPT-4 Vision API to describe images. It receives Tana Paste text containing image URLs and returns image descriptions.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanaNodes/TanaVision.git"
+  },
+  "keywords": [
+    "nodejs",
+    "openai",
+    "image-processing",
+    "vision-api",
+    "express",
+    "api"
+  ],
+  "author": "Andrea Grasso <desk@tananodes.com> (https://tananodes.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanaNodes/TanaVision/issues"
+  },
+  "homepage": "https://github.com/TanaNodes/TanaVision#readme",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.24.1"
+  }
+}
